@@ -151,7 +151,7 @@
 		{
 			if (FileDataStore.FileData.Count == 0)
 			{
-				Console.WriteLine("No books found");
+				Console.WriteLine("The library is empty!");
 				return;
 			}
 
