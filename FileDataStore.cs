@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace Library
 {
@@ -14,18 +15,18 @@ namespace Library
 			// Create file if it doesn't exist
 			if (!File.Exists(FileName))
 			{
-				File.Create(FileName);
+				Debug.WriteLine("Creating file");
+				File.Create(@"c:\" + FileName);
 				File.WriteAllText(FileName, "[]");
 			}
 
 			// Read data from file
-			string? bookData = File.ReadAllText(FileName);
-			bookData = HelperUtils.AssertIsNotNull(bookData);
+			string bookData = File.ReadAllText(FileName);
 
 			List<BookDataStruct>? books = JsonConvert.DeserializeObject<List<BookDataStruct>>(bookData);
-			books = HelperUtils.AssertIsNotNull(books);
+			if (books == null) books = new();
 
-			FileData = books;
+			this.FileData = books;
 		}
 
 		private void updateFile()

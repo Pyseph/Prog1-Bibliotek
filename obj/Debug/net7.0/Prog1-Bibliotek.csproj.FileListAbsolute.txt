@@ -3,3 +3,16 @@ C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.GeneratedMSBui
 C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.AssemblyInfoInputs.cache
 C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.AssemblyInfo.cs
 C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.csproj.CoreCompileInputs.cache
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\Prog1-Bibliotek.exe
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\Prog1-Bibliotek.deps.json
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\Prog1-Bibliotek.runtimeconfig.json
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\Prog1-Bibliotek.dll
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\Prog1-Bibliotek.pdb
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Programmering\Prog1-Bibliotek\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.csproj.CopyComplete
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.dll
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\refint\Prog1-Bibliotek.dll
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.pdb
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.genruntimeconfig.cache
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\ref\Prog1-Bibliotek.dll

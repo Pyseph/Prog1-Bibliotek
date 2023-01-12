@@ -1,1 +1,1 @@
-var interface = new Library.ProgramInterface();
+new Library.ProgramInterface();
