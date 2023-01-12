@@ -1,0 +1,5 @@
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.csproj.AssemblyReference.cache
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.AssemblyInfoInputs.cache
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.AssemblyInfo.cs
+C:\Programmering\Prog1-Bibliotek\obj\Debug\net7.0\Prog1-Bibliotek.csproj.CoreCompileInputs.cache

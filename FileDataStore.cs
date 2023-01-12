@@ -1,5 +1,4 @@
 using Newtonsoft.Json;
-using System.IO;
 
 namespace Library
 {
@@ -20,19 +19,18 @@ namespace Library
 			}
 
 			// Read data from file
-			string bookData = File.ReadAllText(FileName);
-			HelperUtils.AssertIsNotNull(bookData);
+			string? bookData = File.ReadAllText(FileName);
+			bookData = HelperUtils.AssertIsNotNull(bookData);
 
 			List<BookDataStruct>? books = JsonConvert.DeserializeObject<List<BookDataStruct>>(bookData);
-			HelperUtils.AssertIsNotNull(books);
+			books = HelperUtils.AssertIsNotNull(books);
 
-			FileData = books!;
+			FileData = books;
 		}
 
 		private void updateFile()
 		{
 			string bookData = JsonConvert.SerializeObject(FileData);
-			HelperUtils.AssertIsNotNull(bookData);
 			File.WriteAllText(FileName, bookData);
 		}
 
