@@ -49,7 +49,7 @@
 					ReturnBook();
 					break;
 				case 'D':
-					DeleteBook();
+					DeleteBooks();
 					break;
 				case 'N':
 					AddBook();
@@ -125,17 +125,8 @@
 			Console.WriteLine("Book added!");
 		}
 
-		public void DeleteBook()
+		private void removeBook(BookDataStruct book)
 		{
-			string title = Input("Enter title: ");
-			BookDataStruct? book = FileDataStore.FileData.Find(x => x.Title == title);
-
-			if (book == null)
-			{
-				Console.WriteLine("No such book found!");
-				return;
-			}
-
 			if (book.Borrowed)
 			{
 				Console.WriteLine("Book is borrowed, cannot delete!");
@@ -144,6 +135,16 @@
 
 			FileDataStore.RemoveBook(book);
 			Console.WriteLine("Book deleted!");
+		}
+		public void DeleteBooks()
+		{
+			string titleOrAuthor = Input("Enter title or author: ");
+			List<BookDataStruct> books = FileDataStore.FileData.FindAll(x => x.Title == titleOrAuthor || x.Author == titleOrAuthor);
+
+			foreach (BookDataStruct book in books)
+			{
+				removeBook(book);
+			}
 		}
 
 		public void ListBooks()
