@@ -15,7 +15,6 @@ namespace Library
 			// Create file if it doesn't exist
 			if (!File.Exists(FileName))
 			{
-				Debug.WriteLine("Creating file");
 				File.Create(@"c:\" + FileName);
 				File.WriteAllText(FileName, "[]");
 			}
